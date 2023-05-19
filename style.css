@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
+    background-color: #1F2937;
 }
 
 .top, .bottom, ul {
@@ -66,6 +67,7 @@ h1, h2, h3, h5 {
 .container {
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 
 .left .subtext {
@@ -148,6 +150,7 @@ button:hover {
     font-weight: 100;
     font-style: italic;
     justify-content: center;
+    text-indent: 32px;
 }
 
 .author {
@@ -164,11 +167,12 @@ button:hover {
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
-    margin: 64px 150px;
-    padding: 16px 64px;
+    margin: 64px 0px;
+    padding: 32px 96px;
     border-radius: 15px;
-    gap: 16px;
+    gap: 32px;
     color: white;
+    font-size: 18px;
 }
 
 .sign-up-banner button {
