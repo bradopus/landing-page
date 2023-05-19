@@ -147,6 +147,7 @@ button:hover {
     color: #1F2937;
     font-weight: 100;
     font-style: italic;
+    justify-content: center;
 }
 
 .author {
@@ -178,6 +179,5 @@ button:hover {
 }
 
 .footer {
-    margin-top: auto;
     padding: 24px;
 }
