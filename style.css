@@ -84,6 +84,11 @@ button {
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: #5195fa;
 }
 
 .placeholder {
@@ -97,27 +102,24 @@ button {
     margin-left: auto;
 }
 
-.information {
+.information, .thumbnails, .set, .quote .text, .banner, .footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.information {
     flex-direction: column;
     margin: 64px;
     gap: 16px;
 }
 
 .thumbnails {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 32px;
 }
 
 .set {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     max-width: 200px;
     text-align: center;
 }
@@ -129,6 +131,11 @@ button {
     border: 3px solid #3882F6;
     border-radius: 25px;
     margin: 8px;
+    transition-duration: 1.5s;
+}
+
+.set .image:hover {
+    background-color: #a9c7f5;
 }
 
 .quote {
@@ -142,12 +149,6 @@ button {
     font-style: italic;
 }
 
-.quote .text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .author {
     display: flex;
     justify-content: flex-end;
@@ -156,11 +157,6 @@ button {
     font-weight: 700;
 }
 
-.banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .sign-up-banner {
     display: flex;
@@ -182,9 +178,6 @@ button {
 }
 
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: auto;
     padding: 24px;
 }
