@@ -4,3 +4,26 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.top, ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.logo {
+    padding: 16px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    margin-left: auto;
+}
